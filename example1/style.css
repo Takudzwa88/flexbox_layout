@@ -37,17 +37,34 @@ nav a:hover{
   background-color: #555;
 }
 
+/* social menu base styles */
+
+a.tw{
+  background-color: url(img/tw.png) no-repeat center;
+  background-size: 80;
+}
+
+a.fb{
+  background-color: url(img/fb.png) no-repeat center;
+  background-size: 80;
+}
+
+
 /* flex styles */
 
  @media screen and (min-width: 768px){
 
 nav ul{
   display:flex;
-  justify-content: flex-start;
 }
 
 nav li{
-  //flex: 1 1 0;
+  flex: 1 1 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
 }
 
  }
